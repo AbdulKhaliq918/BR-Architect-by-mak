@@ -20,6 +20,7 @@
 }
 #project-section  .card{
     margin-bottom: 16px;
+    cursor: pointer;
 }
 #project-section .card:hover{
     transform: scale(1.1);
