@@ -2,16 +2,24 @@
     background-image: url(/assets/images/architect.jpg);
     min-height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: bottom center;
 }
-
+main{
+    font-family: 'Segoe UI',  Verdana, sans-serif ;
+}
 #br-text{
     padding:8px 10px ;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.829);
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 #a-text{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.842);
+}
+#brand{
+    letter-spacing: 4px;
 }
 
 #about-section img{
@@ -26,7 +34,10 @@
     transform: scale(1.1);
     transition: all 0.5s;
 }
+.nav-item:hover {
+    background-color:rgba(95, 107, 216, 0.589);
 
+}
 
 #about-section .card:hover{
     transform: scale(1.1);
