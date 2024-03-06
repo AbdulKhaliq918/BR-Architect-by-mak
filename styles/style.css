@@ -6,6 +6,7 @@
 }
 main{
     font-family: 'Segoe UI',  Verdana, sans-serif ;
+    user-select: none;
 }
 #br-text{
     padding:8px 10px ;
