@@ -49,6 +49,10 @@ main{
 
     
 }
+.form-control:hover{
+    background-color: gray;
+    border-radius: 6px;
+}
 h1,h3{
     cursor:pointer ;
 }
