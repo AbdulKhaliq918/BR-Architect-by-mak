@@ -9,6 +9,9 @@ main{
     font-family: 'Segoe UI',  Verdana, sans-serif ;
     user-select: none;
 }
+header{
+    box-shadow: 0 2px 7px;
+}
 #br-text{
     padding:8px 10px ;
     background-color:rgba(0, 0, 0, 0.829);
